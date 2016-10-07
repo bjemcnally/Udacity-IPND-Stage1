@@ -25,6 +25,7 @@ Also changed the color scheme, new colors:
 
 */
 
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -76,7 +77,7 @@ h2 {
     /*right: 0;*/ /*changed navigation pane from top to left */
     bottom: 0;
     z-index: 9999;
-    width: auto;
+    width: 20%;
     /* height: 100px; if I remove the set height will it fit to content? YES*/
     background-color: #FDFEF0;
     margin-left: 20px;
@@ -87,10 +88,7 @@ h2 {
 .NotesMaster {
     background-color: #FDFEF0;
     margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 30px 100px; /*this is short hand that sets to/bottom to 30 and left/right to 100*/
     margin-left: 250px;
     margin-right: 30px;
     color: grey;
@@ -183,4 +181,10 @@ h2 {
 
 .Image {
     margin: 30px;
+}
+
+.Center {
+    display: block;
+    padding: 1px;
+    margin: auto;
 }
