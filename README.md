@@ -1,7 +1,7 @@
 # Udacity-IPND-Stage1
-Project for Udacity Intro to Programming
+Project for Udacity Intro to Programming Nanodegree (IPND)
 
-Stage 1 Make a Web Page
+Stage 1: Make a Web Page
 
 First submitted: 10/5/2016
 
